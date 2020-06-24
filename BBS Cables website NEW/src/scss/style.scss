@@ -119,6 +119,28 @@ $dark-overlay: rgba(0,0,0, 0.7);
 
   }
 }
+#home-video{
+  position: relative;
+  background: url('../img/cable\ pic\ 3.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 250px;
+  
+  .dark-overlay{
+    background: $dark-overlay;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    .fa{
+      font-size: $icon-size;
+      color: #ff0000;
+    }
+
+  }
+}
 
 
 @media (max-width: 767px) {
