@@ -6,7 +6,7 @@
   "scripts": {
     "start": "gulp"
   },
-  "author": "Moshiur",
+  "author": "Ifaz",
   "license": "MIT",
   "dependencies": {
     "bootstrap": "^4.5.0",
