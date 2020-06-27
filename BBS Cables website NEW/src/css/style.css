@@ -1,7 +1,8 @@
 .navbar {
+  position: relative;
   box-shadow: 2px 2px 5px #ef6603;
   background: #fff;
-  opacity: 0.95; }
+  opacity: 0.5; }
   .navbar .nav-item {
     font-size: 1rem;
     padding-right: 15px; }
