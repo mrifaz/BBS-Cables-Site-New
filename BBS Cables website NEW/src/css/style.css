@@ -6,7 +6,7 @@ body {
   background: white;
   opacity: 0.9; }
   .navbar .nav-item {
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding-right: 5px; }
     .navbar .nav-item .nav-link {
       color: #000000; }
@@ -35,7 +35,7 @@ body {
 # About
 --------------------------------------------------------------*/
 .about {
-  padding-top: 80px; }
+  padding-top: 10px; }
 
 .about .content h3 {
   font-weight: 600;
@@ -84,15 +84,22 @@ body {
   color: #fff;
   text-decoration: none; }
 
+#products .card {
+  border-color: #fd7e14;
+  margin-top: 1.5rem; }
+
+#products #bgorange {
+  background-color: #fd7e14; }
+
 /* get started ---------------------------------------*/
-#getstarted {
+#vision {
   position: relative;
   background: url("../img/cable image 1.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   min-height: 250px; }
-  #getstarted .dark-overlay {
+  #vision .dark-overlay {
     background: rgba(0, 0, 0, 0.7);
     position: absolute;
     top: 0;
@@ -146,12 +153,12 @@ body {
   line-height: 26px; }
 
 #footer {
-  background: #F7941E;
+  background: #fd7e14;
   color: #fff;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
-  font-weight: 300; }
+  font-weight: 200; }
   #footer h1 {
     font-size: 20px;
     text-transform: uppercase;

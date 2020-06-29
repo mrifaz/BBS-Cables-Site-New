@@ -1,4 +1,5 @@
 $primary: #ef6603;
+$orange: #fd7e14;
 $dark-overlay: rgba(0,0,0, 0.7);
 body{
   margin-top:85px
@@ -8,7 +9,7 @@ body{
   background: rgb(255, 255, 255);
   opacity: 0.9;
   .nav-item{
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding-right: 5px;
 
     .nav-link{
@@ -44,7 +45,7 @@ body{
 # About
 --------------------------------------------------------------*/
 .about {
-  padding-top: 80px;
+  padding-top: 10px;
 }
 
 .about .content h3 {
@@ -101,9 +102,23 @@ body{
   color: #fff;
   text-decoration: none;
 }
+
+#products{
+
+  .card{
+    border-color: $orange;
+    margin-top: 1.5rem;
+  }
+  
+  #bgorange{
+    background-color: $orange;
+
+  }
+}
+
 /* get started ---------------------------------------*/
 
-#getstarted{
+#vision{
   position: relative;
   background: url('../img/cable\ image\ 1.jpg');
   background-size: cover;
@@ -183,12 +198,12 @@ body{
   
 }
 #footer{
-  background: #F7941E;
+  background: $orange;
   color: #fff;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
-  font-weight: 300;
+  font-weight: 200;
 
   h1 {
     font-size: 20px;
