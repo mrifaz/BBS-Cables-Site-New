@@ -1,6 +1,8 @@
 $primary: #ef6603;
 $dark-overlay: rgba(0,0,0, 0.7);
-
+body{
+  margin-top:85px
+  }
 .navbar{
   box-shadow: 2px 2px 5px $primary;
   background: rgb(255, 255, 255);
@@ -18,7 +20,7 @@ $dark-overlay: rgba(0,0,0, 0.7);
     }
   }
   .nav-item:last-child{
-    padding-right: 0px;
+    padding-right: 0;
   }
 }
 
@@ -180,9 +182,29 @@ $dark-overlay: rgba(0,0,0, 0.7);
   }
   
 }
+#footer{
+  background: #F7941E;
+  color: #fff;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+  font-weight: 300;
+
+  h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+}
 
 
+#copyright{
 
+  background: $primary;
+
+}
 
 @media (max-width: 767px) {
   .nav-item {

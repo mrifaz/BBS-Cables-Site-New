@@ -1,3 +1,6 @@
+body {
+  margin-top: 85px; }
+
 .navbar {
   box-shadow: 2px 2px 5px #ef6603;
   background: white;
@@ -11,7 +14,7 @@
       color: white;
       background: #ef6603; }
   .navbar .nav-item:last-child {
-    padding-right: 0px; }
+    padding-right: 0; }
 
 .carousel-item {
   height: 450px; }
@@ -141,6 +144,23 @@
 #downloadnews .card .card-body .tickerv-wrap ul li {
   font-size: 16px;
   line-height: 26px; }
+
+#footer {
+  background: #F7941E;
+  color: #fff;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+  font-weight: 300; }
+  #footer h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 20px; }
+
+#copyright {
+  background: #ef6603; }
 
 @media (max-width: 767px) {
   .nav-item {
