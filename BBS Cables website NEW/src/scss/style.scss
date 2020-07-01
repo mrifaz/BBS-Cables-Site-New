@@ -4,6 +4,7 @@ $dark-overlay: rgba(0,0,0, 0.7);
 body{
   margin-top:85px
   }
+
 .navbar{
   box-shadow: 2px 2px 5px $primary;
   background: rgb(255, 255, 255);
@@ -45,7 +46,7 @@ body{
 # About
 --------------------------------------------------------------*/
 .about {
-  padding-top: 10px;
+  padding-top: 15px;
 }
 
 .about .content h3 {
