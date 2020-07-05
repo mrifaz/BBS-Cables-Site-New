@@ -1,6 +1,7 @@
 $primary: #ef6603;
 $orange: #fd7e14;
 $dark-overlay: rgba(0,0,0, 0.7);
+
 body{
   margin-top:85px
   }
@@ -19,6 +20,13 @@ body{
     .nav-link:hover{
       color: rgb(255, 255, 255);
       background: #ef6603;
+    }
+
+    .dropdown-menu{
+      .dropdown-item:hover{
+        color: rgb(255, 255, 255);
+        background: #ef6603;
+      }
     }
   }
   .nav-item:last-child{
@@ -103,7 +111,7 @@ body{
   color: #fff;
   text-decoration: none;
 }
-
+/*------------ Peoducts list -----------*/
 #products{
 
   .card{

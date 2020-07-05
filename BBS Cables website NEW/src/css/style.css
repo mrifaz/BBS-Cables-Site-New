@@ -13,6 +13,9 @@ body {
     .navbar .nav-item .nav-link:hover {
       color: white;
       background: #ef6603; }
+    .navbar .nav-item .dropdown-menu .dropdown-item:hover {
+      color: white;
+      background: #ef6603; }
   .navbar .nav-item:last-child {
     padding-right: 0; }
 
@@ -84,6 +87,7 @@ body {
   color: #fff;
   text-decoration: none; }
 
+/*------------ Peoducts list -----------*/
 #products .card {
   border-color: #fd7e14;
   margin-top: 1.5rem; }
