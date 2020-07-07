@@ -3,9 +3,9 @@ $orange: #fd7e14;
 $dark-overlay: rgba(0,0,0, 0.7);
 
 body{
-  margin-top:85px
+  margin-top:85px /*---- top gap for nav bar---*/
   }
-
+/*--------------------- Navigation bar --------------------*/
 .navbar{
   box-shadow: 2px 2px 5px $primary;
   background: rgb(255, 255, 255);
@@ -34,6 +34,7 @@ body{
   }
 }
 
+/*------------------carousal --------------*/
 .carousel-item{
   height: 450px;
 }
@@ -125,7 +126,7 @@ body{
   }
 }
 
-/* get started ---------------------------------------*/
+/*-------------------------   Vision      ---------------------------------------*/
 
 #vision{
   position: relative;
@@ -147,7 +148,8 @@ body{
 }
 
 
-
+/* ------------------------------video section------------------------*/
+/*
 .iframe-container{
   position: relative;
   width: 100%;
@@ -161,7 +163,8 @@ body{
   width: 100%;
   height: 100%;
 }
-
+*/
+/*---------------------------Home page Download content and News section--------------*/
 #downloadnews{
 
   img{
@@ -206,6 +209,7 @@ body{
   }
   
 }
+
 #footer{
   background: $orange;
   color: #fff;
@@ -254,8 +258,7 @@ body{
   .card{
     margin-bottom: 5px;
     border: none;
-
-    
+   
   }
 
   .btn-link{
@@ -286,7 +289,7 @@ body{
 }
 
 
-/* ------------------------- wave flow section --------------*/
+/* ------------------------- wave flow section ------------------------*/
 #hero {
   width: 100%;
   overflow: hidden;
