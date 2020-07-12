@@ -27,7 +27,10 @@
       </button> 
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
-          
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+        <!--
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdownMenuLink"data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -38,12 +41,16 @@
               <a href="index.html#homevideo" class="dropdown-item">Watch the video</a>
             </div>
           </li>
+        -->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Company</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a href="index.html#about" class="dropdown-item">About us</a>
+              <a href="index.html#vision" class="dropdown-item">Vision & Mission</a>
               <a href="management.html" class="dropdown-item">Meet the Board</a>
-              <a href="quality_policy.html" class="dropdown-item">Quality Policy</a>
-              <a href="env_policy.html" class="dropdown-item">Environment Policy</a>
+              <!--<a href="index.html#mission" class="dropdown-item">Mission</a>--->
+              <a href="index.html#homevideo" class="dropdown-item">Watch the video</a>
+              <a href="ourpolicy.html" class="dropdown-item">Our Policy</a>
             </div>
           </li>
           <li class="nav-item">
@@ -236,7 +243,7 @@
             <div id="bgorange" class="card h-100">
               <div class="card-body">
                 <img src="img/other_cable.png" alt="" class="img-fluid" width="50">
-                <h4>other Cables</h4>
+                <h4>Other Cables</h4>
                 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, totam accusamus veritatis fugiat animi pariatur.</p>
               </div>
             </div>
@@ -290,9 +297,11 @@
   <iframe width="1360" height="768" src="https://www.youtube.com/embed/grqEhniWOm0" frameborder="0" allowfullscreen uk-responsive uk-video="automute: true"></iframe>
 </div>
 -->
+<section id="homevideo">
 <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/grqEhniWOm0" frameborder="0" allowfullscreen uk-responsive uk-video="automute: true"></iframe>
 </div>
+</section>
 <!--
 <br> <br>
 <section id="homevideo">
@@ -351,6 +360,7 @@
                     <li>Pellentesque auctor molestie orci ut blandit.</li>
                   </ul>
                 </div>
+                <a href="#">More News.</a>
               </div>
             </div>
           </div>
@@ -359,7 +369,7 @@
     </div>
   </section>
 
-    <!-- ========= Hero Section ======= -->
+    <!-- ========= Hero Section ======= 
     <section id="hero" class="d-flex flex-column justify-content-end align-items-center"></section>
 
       <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none" >
@@ -404,7 +414,7 @@
     <section id="footer">
       <div class="container">
         <div class="row">
-          <div class="col-lg-3 col-sm-3 address wow fadeInUp" data-wow-duration="2s" data-wow-delay=".1s">
+          <div class="col-lg-3 col-sm-3 address">
             <h1>
               contact info
             </h1>
@@ -413,21 +423,62 @@
               , Middle Badda, Progati Sarani Dhaka-1212, Bangladesh </p>
               <p><i class="fa fa-mobile pr-10"></i> Tel : 88 02 9859915-17,9850771 </p>
               <p><i class="fa fa-phone pr-10"></i> Fax : 88-02-9850772 </p>
-              <p><i class="fa fa-envelope pr-10"></i> Email :   <a href="javascript:;">info@bbscables.com.bd</a></p>
+              <p><i class="fa fa-envelope pr-10"></i> Email :   <a href="mailto:info@bbscables.com.bd">info@bbscables.com.bd</a></p>
             </address>
           </div>
+          
+          <div class="col-lg-3 col-sm-3">
+              <h1>About</h1> 
+              <ul class="page-footer-list">
+                    <li>
+                      <i class="fa fa-angle-right"></i>
+                      <a href="index.html#aboutus">ABOUT US</a>
+                    </li>
+                    <li>
+                      <i class="fa fa-angle-right"></i>
+                      <a href="management.html">MANAGEMENT</a>
+                    </li>
+                    <li>
+                      <i class="fa fa-angle-right"></i>
+                      <a href="index.html#vision">VISION/MISSION</a>
+                    </li>
+                    <li>
+                      <i class="fa fa-angle-right"></i>
+                      <a href="ourpolicy.html">POLICY</a>
+                    </li>
+                    <li>
+                      <i class="fa fa-angle-right"></i>
+                      <a href="investorrelation.html">Investors Relation</a>
+                    </li>  
+                  </li>
+                  <li>
+                   <i class="fa fa-angle-right"></i>
+                   <a href="#">career</a>
+                 </li>          
+              </ul>
+          </div>
+
         </div>
       </div>
-
     </section>
 
-    <section id="copyright" class="text-center py-3 text-light">
+    <section id="copyright" class="">
       <div class="container">
         <div class="row">
-          <div class="col">
-            <p class="lead mb-0">Copyright © BBS Cables 2016 All rights reserved </p>
+          <div class="col-md-4">
+            <div class="copyright">
+              <p>Copyright © BBS Cables 2020 All rights reserved</p>
+            </div>
           </div>
-        </div>
+          <div class="col-lg-8 col-sm-8 pull-right">
+              <ul class="social-link-footer list-unstyled">
+                  <li><a href="https://www.facebook.com/bbscables/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                  <li class="wow flipInX" data-wow-duration="2s" data-wow-delay=".2s"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li class="wow flipInX" data-wow-duration="2s" data-wow-delay=".4s"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                  <li class="wow flipInX" data-wow-duration="2s" data-wow-delay=".8s"><a href="#"><i class="fa fa-youtube"></i></a></li>
+              </ul>
+          </div>
+      </div>
       </div>
     </section>
 

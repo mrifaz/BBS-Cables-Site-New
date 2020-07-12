@@ -94,8 +94,16 @@ body {
   border-color: #fd7e14;
   margin-top: 1.5rem; }
 
+#products .card:hover {
+  background-color: #fc6017;
+  color: white; }
+
 #products #bgorange {
   background-color: #fd7e14; }
+
+#products #bgorange:hover {
+  background-color: #fc6017;
+  color: white; }
 
 /*-------------------------   Vision      ---------------------------------------*/
 #vision {
@@ -229,6 +237,19 @@ body {
   content: '\002B';
   color: black;
   float: left; }
+
+/*-------------------------- Sales Center ---------------------------------*/
+#salescenter .row .contact-infos {
+  margin: 8px;
+  padding-left: 8px;
+  height: 9rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ef6603; }
+
+#salescenter .row .contact-infos:hover {
+  background-color: #fc6017;
+  color: white; }
 
 /* ------------------------- wave flow section ------------------------*/
 #hero {

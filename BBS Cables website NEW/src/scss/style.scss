@@ -119,10 +119,17 @@ body{
     border-color: $orange;
     margin-top: 1.5rem;
   }
-  
+  .card:hover{
+    background-color: #fc6017;
+    color: white;
+  }
   #bgorange{
     background-color: $orange;
 
+  }
+  #bgorange:hover{
+    background-color: #fc6017;
+    color: white;
   }
 }
 
@@ -287,7 +294,28 @@ body{
   }
 
 }
+/*-------------------------- Sales Center ---------------------------------*/
 
+#salescenter{
+  
+  .row{
+    .contact-infos{
+      margin: 8px;
+      padding-left: 8px;
+      height: 9rem;
+  
+      border-style: solid;
+      border-width: 1px;
+      border-color: $primary;
+    }
+    .contact-infos:hover{
+      background-color: #fc6017;
+      color: white;
+    }
+    
+  }
+  
+}
 
 /* ------------------------- wave flow section ------------------------*/
 #hero {
