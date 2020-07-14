@@ -16,6 +16,16 @@
 
 </head>
 <body>
+  <!-- Floating social icon-->
+  <div id="floatingIcon" data-spy="affix" class="pull-left hidden-sm hidden-xs" style="margin-left: -65px;">
+    <div class="icon-bar">
+      <a href="https://www.facebook.com/bbscablesltd/" class="facebook"><i class="fa fa-facebook"></i></a>
+      <a href="tel:029850771 " class="whatsapp"><i class="fa fa-whatsapp"></i></a> 
+    </div>
+  </div>
+  <social id="floatingIcon">
+    
+  </social>
   <!-- Navigation bar -->
   <nav class="navbar navbar-light my-0 py-0 navbar-expand-lg fixed-top">
     <div class="container m-0">
@@ -466,17 +476,17 @@
       </div>
     </section>
 
-    <section id="copyright" class="">
+    <section id="copyrightNsocial" class="">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-sm-12 pull-left">
-            <div class="copyright align-center">
+            <div class="copyright">
               <p>Copyright © BBS Cables 2020 All rights reserved</p>
             </div>
           </div>
 
           <div class="col-lg-6 col-sm-12 pull-right">
-            <div class="template-demo"> 
+            <div class="social"> 
               <a href="https://www.facebook.com/bbscablesltd/" class="btn btn-social-icon btn-facebook btn-rounded" target="_blank"><i class="fa fa-facebook"></i>
               </a>
               <a href="https://www.linkedin.com/organization-guest/company/bbs-cables-ltd?challengeId=AQHSX2YxeuWauwAAAXNLyNT0a4IfQ5v8HiG2mEFCSBhzd0ltcOvxlRcMyNII44Gq63b6-pu7yADj2qY9-IjV3YGzadgKIFL9QA&submissionId=0047b12c-2187-2116-85bc-283fdf56c84a" class="btn btn-social-icon btn-facebook btn-rounded" target="_blank">
@@ -496,8 +506,27 @@
       </div>
       </div>
     </section>
-
-
+    <div id="btnTop" class="fixed-action-btn smooth-scroll" style="bottom: 45px; right: 24px;display: none;">
+      <a href="#topSection" class="btn-floating btn-large black">
+        <i class="fa fa-arrow-up"></i>
+      </a>
+    </div>
+<script>
+    $(function() {
+  
+      var $btn = $('#btnTop');
+      var $home = $('#topSection');
+      var startpoint = $home.scrollTop() + $home.height();
+      
+      $(window).on('scroll', function() {
+        if($(window).scrollTop() > startpoint) {
+          $btn.show();
+        } else {
+          $btn.hide();
+        }
+      });
+    });
+</script>
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.js"></script>
   <script src="js/bootstrap.min.js"></script>

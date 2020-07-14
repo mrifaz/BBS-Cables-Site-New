@@ -5,6 +5,42 @@ $dark-overlay: rgba(0,0,0, 0.7);
 body{
   margin-top:85px /*---- top gap for nav bar---*/
   }
+
+  /*---------floating icon-----------*/
+  #floatingIcon{
+    .icon-bar {
+      position: fixed;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+    
+    .icon-bar a {
+      display: block;
+      text-align: center;
+      padding: 10px;
+      margin-bottom: 3px;
+      transition: all 0.3s ease;
+      color: white;
+      font-size: 20px;
+    }
+    
+    .icon-bar a:hover {
+      background-color: #000;
+    }
+    
+    .facebook {
+      background: #3B5998;
+      color: white;
+    }
+    
+    .whatsapp {
+      background: #27d400;
+      color: white;
+    }
+  }
+  
 /*--------------------- Navigation bar --------------------*/
 .navbar{
   box-shadow: 2px 2px 5px $primary;
@@ -235,11 +271,21 @@ body{
 }
 
 
-#copyright{
-
+#copyrightNsocial{
+  
   background: $primary;
+  vertical-align: middle;
+
+  .social{
+    float: right;
+  }
+  .btn-social-icon{
+    border-radius: 50px;
+    background-color: green($color: #000000);
+  }
 
 }
+
 
 @media (max-width: 767px) {
   .nav-item {
