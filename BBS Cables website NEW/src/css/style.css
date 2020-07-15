@@ -13,20 +13,23 @@ body {
   display: block;
   text-align: center;
   padding: 10px;
-  margin-bottom: 3px;
   transition: all 0.3s ease;
   color: white;
   font-size: 20px; }
 
 #floatingIcon .icon-bar a:hover {
-  background-color: #000; }
+  background-color: #ef6603; }
 
 #floatingIcon .facebook {
   background: #3B5998;
   color: white; }
 
-#floatingIcon .whatsapp {
-  background: #27d400;
+#floatingIcon .mail {
+  background: #bb0000;
+  color: white; }
+
+#floatingIcon .mobile {
+  background: #25d366;
   color: white; }
 
 /*--------------------- Navigation bar --------------------*/
@@ -220,6 +223,26 @@ body {
   #copyrightNsocial .btn-social-icon {
     border-radius: 50px;
     background-color: 0; }
+
+/*======== back to top button======*/
+#topBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1571057658/cd-top-arrow.svg) no-repeat center 50%;
+  background-color: #fd7e14;
+  color: white;
+  cursor: pointer;
+  padding: 20px; }
+
+#topBtn:hover {
+  background-color: #ef6603; }
 
 @media (max-width: 767px) {
   .nav-item {
